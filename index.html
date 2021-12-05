@@ -1,40 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Miran's Website</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/utilities.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-      <nav class="flex">
-        <div class="left">
-          
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Miran's Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/utilities.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="flex items-center justify-between">
+        <div class="left flex items-center">
+
           <div class="branding">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/logo1.gif" alt="" width="50px" height="50px">
           </div>
 
           <div>
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Projects</a>
-              <a href="#">Pages</a>
-              <a href="#">Blog</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <!-- <a href="#">Blog</a> -->
           </div>
         </div>
 
         <div class="right">
-          <button>Contact Us</button>
+          <button class="btn btn-primary">Contact</button>
         </div>
 
       </nav>
-    </div> 
-    </header>
-  </body>
+
+      <div class="hero flex items-center justify-between">
+
+
+        <div class="left flex-1 flex justify-center">
+          <img src="./images/miran_pic.png" alt="">
+        </div>
+
+        <!--style this para on ur own later-->
+        <div class="right flex-1">
+          <h6>Syed Miran Hussain</h6>
+          <h1>I'm a Creative <span>Designer</span></h1>
+          <p>My name is Syed Miran Hussain, a college student who enjoys creating websites as a hobby. With a passion
+            for both personal growth in Web Development and Data Science, i learnt 1000+ hours coding bootcamp
+            to learn new languages while sharpening existing skills.
+          </p>
+          <div>
+            <button class="btn btn-secondary">DOWNLOAD CV</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container flex items-center">
+      <div class="flex-1">
+        <img class="about-me-img" src="./images/mi4.jpeg" alt="">
+      </div>
+
+
+      <div class="flex-1">
+        <h1>About <span>Me</span></h1>
+        <h3>Hello! I'm SYED MIRAN HUSSAIN
+        </h3>
+        <p>
+          I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to
+          strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and
+          achieve greatness.I always take notes, and I use a series of tools to help myself stay on top of deadlines. I
+          like to keep a clean workspace and create a logical filing method so I’m always able to find what I need.
+        </p>
+        <div class="social">
+          <a href="#"><img src="./images/website.png" alt="" </a>
+            <a href="#"><img src="./images/facebook.png" alt="" </a>
+              <a href="#"><img src="./images/twitter.png" alt="" </a>
+                <a href="#"><img src="./images/instagram.png" alt="" </a>
+                  <a href="#"><img src="./images/pintrest.png" alt="" </a>
+        </div>
+      </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h1 class="section-heading"><span>Our </span>Services</h1>
+      <p>We provide high standard and clean website for your bussiness</p>
+      <div class="card-wrapper">
+        <div class="card">
+          <img src="./images/brush.png" alt="">
+          <h2>Graphic Design</h2>
+          <p>djaidjjd jiajdj aijdaidj iajdaidjjd iadj iadj iadj iajd aidjj ai iajd</p>
+        </div>
+        <div class="card">
+          <img src="./images/code.png" alt="">
+          <h2>Graphic Design</h2>
+          <p>djaidjjd jiajdj aijdaidj iajdaidjjd iadj iadj iadj iajd aidjj ai iajd</p>
+        </div>
+        <div class="card">
+          <img src="./images/bag.png" alt="">
+          <h2>Graphic Design</h2>
+          <p>djaidjjd jiajdj aijdaidj iajdaidjjd iadj iadj iadj iajd aidjj ai iajd</p>
+        </div>
+        <div class="card">
+          <img src="./images/desktop.png" alt="">
+          <h2>Graphic Design</h2>
+          <p>djaidjjd jiajdj aijdaidj iajdaidjjd iadj iadj iadj iajd aidjj ai iajd</p>
+        </div>
+        <div class="card">
+          <img src="./images/media.png" alt="">
+          <h2>Graphic Design</h2>
+          <p>djaidjjd jiajdj aijdaidj iajdaidjjd iadj iadj iadj iajd aidjj ai iajd</p>
+        </div>
+        <div class="card">
+          <img src="./images/phone.png" alt="">
+          <h2>Graphic Design</h2>
+          <p>djaidjjd jiajdj aijdaidj iajdaidjjd iadj iadj iadj iajd aidjj ai iajd</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="freelancer">
+    <h1>I Am Available For freelancer</h1>
+    <p>We provide high standard clean website for your bussiness solutions</p>
+    <button class="btn btn-primary">Download CV</button>
+  </section>
+
+  <!-- <section class="reviews">
+    <div class="container">
+      <h1 class="section-heading"><span>our </span>Client</h1>
+      <p>dkm injdkjn jndkajndna j najkdn njan ajndm jadn jnj</p>
+      <div class="slider">
+        <div class="slide">
+          <img src="./images/lady.png" alt="">
+          <p>dm nn nd na knjd nkn jdn kndkn jasn kjdkj nksdj nksjdn ks nksjn ksjfn ksjnf ksjnf kjsn ksjfnksn jskfnksn
+          </p>
+          <span>-Apple deol, company ABC</span>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slide">
+          <img src="./images/lady.png" alt="">
+          <p>dm nn nd na knjd nkn jdn kndkn jasn kjdkj nksdj nksjdn ks nksjn ksjfn ksjnf ksjnf kjsn ksjfnksn jskfnksn
+          </p>
+          <span>-Apple deol, company ABC</span>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slide">
+          <img src="./images/lady.png" alt="">
+          <p>dm nn nd na knjd nkn jdn kndkn jasn kjdkj nksdj nksjdn ks nksjn ksjfn ksjnf ksjnf kjsn ksjfnksn jskfnksn
+          </p>
+          <span>-Apple deol, company ABC</span>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slide">
+          <img src="./images/lady.png" alt="">
+          <p>dm nn nd na knjd nkn jdn kndkn jasn kjdkj nksdj nksjdn ks nksjn ksjfn ksjnf ksjnf kjsn ksjfnksn jskfnksn
+          </p>
+          <span>-Apple deol, company ABC</span>
+        </div>
+      </div>
+      <div class="slider-dots">
+
+      </div>
+    </div>
+
+  </section> -->
+
+  <section class="work">
+    <div class="container">
+      <h1 class="section-heading"><span>Our </span>Projects</h1>
+      <p>njnc jnc njcnks klsdjn ksjuncf skncjs snfc slknf slnjf </p>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="overlay">
+            <!-- <span>Category</span>  -->
+            <!-- <a href="#">Web Development</a> -->
+          </div>
+          <img src="./images/ph-1.png" alt="">
+
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+
+        </div>
+
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+
+        </div>
+
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+
+        </div>
+
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+
+        </div>
+
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="blog">
+    <div class="container">
+
+      <h1 class="section-heading"><span>Our </span>Blog</h1>
+      <p>mkism mskmcs smx kamx akmsx kamsx kams kams mkams akms</p>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="./images/article-ph-1.png" alt=">"
+          </div>
+          <div class="card-content">
+            <a href="#">
+              <h1>Occusmys sit atioe</h1>
+            </a>
+            <span>May 12, 2017</span>
+            <p> normal paragraph</p>
+            <a href="">read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="./images/article-ph-1.png" alt=">"
+          </div>
+          <div class="card-content">
+            <a href="#">
+              <h1>Occusmys sit atioe</h1>
+            </a>
+            <span>May 12, 2017</span>
+            <p> normal paragraph</p>
+            <a href="">read more</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="./images/article-ph-1.png" alt=">"
+          </div>
+          <div class="card-content">
+            <a href="#">
+              <h1>Occusmys sit atioe</h1>
+            </a>
+            <span>May 12, 2017</span>
+            <p> normal paragraph</p>
+            <a href="">read more</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section> -->
+
+  <section class="Contact">
+    <div class="container">
+      <h1 class="section-heading">Contact <span>Us</span></h1>
+      <p>We provide high standard website for your bussiness solutions</p>
+      <div class="card-wrapper">
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+
+
+
+
+
+
+        <!-- <div class="card">
+          <img src="./images/phone-2.png" alt="">
+          <h1>Call Me</h1>
+          <h6>91 8374874733</h6>
+        </div>
+      
+        <div class="card">
+          <img src="./images/msg.png" alt="">
+          <h1>Email Me</h1>
+          <h6>miranhussain4@gmail.com</h6>
+        </div>
+      
+        <div class="card">
+          <img src="./images/map.png" alt="">
+          <h1>Visit Office</h1>
+          <h6>Hyderabad</h6>
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+  <!--<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>-->
+
+</body>
 
 
 
